@@ -1,0 +1,38 @@
+
+<body>
+    <!DOCTYPE html>
+    <html>
+    <h1> Contact Us</h1>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div class="f">
+            <header> 
+                <a href="home.html">home</a>
+                <a href="TV.html"> TV</a>
+                <a href="laptops.html">laptops</a>
+            <a href="iphone.html">iphone</a>
+            <a href="contact.html">contact us</a>
+            </header>
+        </div>
+<section class="container5">
+    <h2>Please share your feedback and experience</h2><br>
+</section>
+ 
+ <div class="form-container">
+  <form name="feedbackForm" onsubmit="return validateForm()" method="post">
+         <label for="firstName">First Name:</label>
+         <input type="text" id="firstName" name="firstName" required>
+         <label for="lastName">Last Name:</label>
+         <input type="text" id="lastName" name="lastName" required>
+         <label for="phoneNumber">Phone Number:</label>
+         <input type="text" id="phoneNumber" name="phoneNumber" required>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+         <label for="message">Feedback:</label>
+         <textarea id="message" name="message" required></textarea>
+         <button type="submit">Submit</button>
+     </form>
+ </div>
